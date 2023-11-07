@@ -20,7 +20,7 @@ def get_input(prompt, previous_value=""):
 # Default header values
 default_date = datetime.datetime.now().strftime("%Y-%m-%d")
 default_status = "not started"
-default_author = "ROC"
+default_author = "Jon"
 
 # Prompt the user for input
 script_name = get_input("Enter the name of the Python script (without the .py extension): ")
